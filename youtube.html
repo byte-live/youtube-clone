@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
+  </head>
+
+  <body>
+    <header class="header">
+
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" 
+        placeholder="search">
+
+      <button class="search-button"> 
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+
+      <!-- put position absolute inside position relative-->
+      <button class="voice-search-button"> 
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+      </div>
+      
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+        <img class="current-user-picture" src="Channel-pictures/user-01.png">
+      </div>
+    
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+
+
+
+    <main>
+      <section class="video-grid">
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=DZAdVY9kKbc">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-10.avif"> </a>
+            <div class="video-time">0:58</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@Porsche">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-10.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=DZAdVY9kKbc">
+                  A drive like no other – the Porsche 911 GT3
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@Porsche">
+                  Porsche
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              1M views &#183 1 year ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-preview"><div>
+          <a href="https://www.youtube.com/watch?v=-obKX-mqjXQ">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-01.avif"> </a>
+            <div class="video-time">44:24</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@NatGeo">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-01.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+             <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=-obKX-mqjXQ">
+                  Tutankhamun's Treasures (Full Episode) | Lost Treasures of Egypt
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@NatGeo">
+                  National Geographic
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              30M views &#183 4 years ago
+              </p> 
+            </div>
+          </div>
+        </div>
+  
+
+      
+       
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=iueGI4CzP-0&t=1s">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-03.avif"> </a>
+            <div class="video-time">12:03</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@AutoFocus">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-03.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=iueGI4CzP-0&t=1s">
+                  2024 Tesla Model 3 Refresh: The Perfect Starter EV!
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@AutoFocus">
+                  Auto Focus
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              3M views &#183 1 year ago
+              </p> 
+            </div>
+          </div>
+        </div>
+    
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=yhB3BgJyGl8">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-04.avif"> </a>
+            <div class="video-time">18:04</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@MrBeast">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-04.jpg"> </a>
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=yhB3BgJyGl8">
+                  7 Days Stranded At Sea
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@MrBeast">
+                  MrBeast
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              343M views &#183 1 year ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=eRdMxQ1zVPo&t=21s">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-07.avif"> </a>
+            <div class="video-time">10:17</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@mkbhd">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-07.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=eRdMxQ1zVPo&t=21s">
+                  Nothing Phone 3a/Pro: Now Do a Flagship!
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@mkbhd">
+                  Marques Brownlee
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              2.7M views &#183 3 days ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=3uEH8rj5cw8">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-05.avif"> </a>
+            <div class="video-time">10:10</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@NadirOnTheGo">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-05.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=3uEH8rj5cw8">
+                Coolest Island in the Philippines - Siargao Vlog 🇵🇭
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@NadirOnTheGo">
+                Nadir On The Go
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              172k views &#183 1 year ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=mNEUkkoUoIA">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-06.avif"> </a>
+            <div class="video-time">2:34</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/channel/UCi4EDAgjULwwNBHOg1aaCig">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-06.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=mNEUkkoUoIA">
+                OneRepublic - I Ain’t Worried (From “Top Gun: Maverick”) [Official Music Video]
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/channel/UCi4EDAgjULwwNBHOg1aaCig">
+                OneRepublic
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              382M views &#183 2 years ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+
+        
+
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=tW3rImAk8po">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-08.avif"> </a>
+            <div class="video-time">20:20</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@robert-herjavec">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-08.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=tW3rImAk8po">
+                How Billionaires REALLY Think: 20 Questions Answered!
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@robert-herjavec">
+                  Robert Herjavec
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              539k views &#183 3 months ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-09.avif"> </a>
+            <div class="video-time">1:30</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@RockstarGames">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-09.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=QdBZY2fkU-0">
+                  Grand Theft Auto VI Trailer 1
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@RockstarGames">
+                  Rockstar Games
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              244M views &#183 1 year ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=rZZEDZHTcMA&t=1s">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-02.avif"> </a>
+            <div class="video-time">2:21</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@BBCNews">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-02.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=rZZEDZHTcMA&t=1s">
+                  How Streaming is revolutionising Bollywood | BBC News
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@BBCNews">
+                  BBC News
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              21k views &#183 7 days ago
+              </p> 
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=NMThdHhrLoM">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-11.avif"> </a>
+            <div class="video-time">1:51</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@bugatti">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-11.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=NMThdHhrLoM">
+                BUGATTI CHIRON Pur Sport: ‘C’ the Drift
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@bugatti">
+                  Bugatti
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              27.6M views &#183 2 years ago
+              </p> 
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview"><div>
+
+          <a href="https://www.youtube.com/watch?v=xk1Tkq_GUaM">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/thumb-12.avif"> </a>
+            <div class="video-time">4:57</div>
+          </div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <a href="https://www.youtube.com/@CokeStudioBangla">
+              <img class="profile-picture" 
+              src="Channel-pictures/ch-12.jpg"> </a>
+              
+            </div>
+            <div class="video-info">
+
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=xk1Tkq_GUaM">
+                Tati | Coke Studio Bangla | Season 3 | Arnob X Oli Boy X Jaya Ahsan X Gonjer Ali
+                </a>
+              </p>
+
+              <p class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/@CokeStudioBangla">
+                Coke Studio Bangla
+                </a>
+              </p>
+             
+              <p class="video-stats">
+              23M views &#183 10 months ago
+              </p> 
+            </div>
+          </div>
+        </div>
+        
+
+        </section>
+    </main>
+  </body>
+
+</html>
